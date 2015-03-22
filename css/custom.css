@@ -35,7 +35,7 @@
 .pagination>li>span:focus {
 	background-color: rgba(144, 144, 144, .5);
   border-color: rgba(144, 144, 144, .5);
-  color: black
+  color: black;
 
 } 
 
@@ -45,6 +45,82 @@ body{
 	margin: 0%;
 	padding: 0%;
 }
+#body_wrap div h2{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 4px;
+}
+div.imglink {
+	padding:2%;
+}
+/*div.imglink a img.overlay{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	position: absolute;
+}*/
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel-control.right, .carousel-control.left{
+	background-image: none;
+}
 
 div.event {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0%;
+
 }
+div.imglink{
+	margin:0%;
+}
+#body_wrap > div.imglink a:hover > img.underlay{
+	opacity: 0.6;
+}
+
+@media only screen and (min-width: 480px) {
+	#body_wrap div.imglink h3 {
+	position: absolute;
+	top:30%;
+	bottom: 60%;
+	right:10%;
+	left:10%;
+	background-color: rgba(77, 77, 77, .7);
+	color:white;
+	display: block;
+	padding:25%;
+	margin-left:10%;
+	margin-right:10%;
+	z-index: -1;
+	text-align: left;
+}
+	}
+
+@media only screen and (max-width: 480px) {
+	#body_wrap div.imglink h3 {
+	position: absolute;
+	top:30%;
+	bottom: 70%;
+	right:10%;
+	left:10%;
+	background-color: rgba(77, 77, 77, .7);
+	color:white;
+	display: block;
+	padding:25%;
+	margin-left:10%;
+	margin-right:10%;
+	z-index: -1;
+	text-align: left;
+}
+}
+@media only screen and (min-width: 992px) {
+
+}
+
