@@ -78,15 +78,15 @@ div.event {
 	margin-bottom: 0%;
 
 }
-div.imglink{
+div.row div.imglink{
 	margin:0%;
 }
-#body_wrap > div.imglink a:hover > img.underlay{
+#body_wrap > div.row > div.imglink a:hover > img.underlay{
 	opacity: 0.6;
 }
 
 @media only screen and (min-width: 480px) {
-	#body_wrap div.imglink h3 {
+	#body_wrap div.row div.imglink h3 {
 	position: absolute;
 	top:30%;
 	bottom: 60%;
@@ -104,7 +104,7 @@ div.imglink{
 	}
 
 @media only screen and (max-width: 480px) {
-	#body_wrap div.imglink h3 {
+	#body_wrap div.row div.imglink h3 {
 	position: absolute;
 	top:30%;
 	bottom: 70%;
