@@ -61,6 +61,17 @@ div.imglink {
 	margin-bottom: 10%;
 	position: absolute;
 }*/
+
+#body_wrap div div.digi img{
+	margin-top: 0px;
+	margin-right: auto;
+  margin-left: auto;
+
+}
+#body_wrap > div > div > div.digism > button > img{
+	margin-right: auto;
+  margin-left: auto;
+}
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   margin-right: auto;
   margin-left: auto;
