@@ -68,10 +68,7 @@ div.imglink {
   margin-left: auto;
 
 }
-#body_wrap > div > div > div.digism > button > img{
-	margin-right: auto;
-  margin-left: auto;
-}
+
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   margin-right: auto;
   margin-left: auto;
@@ -123,6 +120,26 @@ div.row div.imglink{
 	text-align: left;
 }
 	}
+#tabs > li> a{
+padding: 5px;
+}
+
+#tabs > li > a > img {
+	max-width: 150px;
+	padding: 0px;
+	margin: 0px;
+}
+#body_wrap > div > a > img{
+	margin: 0px;
+	display: inline-block;
+	max-width: 100px;
+}
+
+#body_wrap > div{
+	margin: 0px;
+	padding: 0px;
+
+}
 
 @media only screen and (max-width: 480px) {
 	#body_wrap div.row div.imglink h3 {
