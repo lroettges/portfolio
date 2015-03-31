@@ -140,7 +140,10 @@ padding: 5px;
 	padding: 0px;
 
 }
+/*#body_wrap button.imgbtn img div.dp{
+	width:33.3%;
 
+}*/
 
 @media only screen and (max-width: 480px) {
 	#body_wrap div.row div.imglink h3 {
