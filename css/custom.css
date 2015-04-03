@@ -1,12 +1,37 @@
 /* custom styles */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/sweetly_broken/SweetlyBroken.ttf);
+}
+h1 {
+font-family: myFirstFont;
+font-size: 500%;
+}
+@font-face {
+    font-family: myMainFont;
+    src: url(../fonts/giorgio/Giorgio.ttf);
+}
+h2, h3, h4, h5, h6, p {
+font-family: myMainFont;
+
+}
+
+/*div.about_me2 div.imglink{
+	padding: 0px;
+}
+div.about_me2 div.imglink a img {
+	outline-width: thick;
+	outline-color: black;
+	outline-style: solid;
+}*/
 .pagination>li>a, .pagination>li>span {
   /*position: relative;
-  float: left;
-  padding: 6px 12px;
-  line-height: 1.42857143;
+  float: left;*/
+  padding: 30px 5px;
+  /*line-height: 1.42857143;
   text-decoration: none;*/
   color: black;
-  background-color: rgba(180, 180, 180, .5);
+  
   border: none;
 /*  margin-left: -1px;*/
 }
@@ -161,8 +186,37 @@ padding: 5px;
 	z-index: -1;
 	text-align: left;
 }
+
+
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 992px) {
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+	div.about_me2 div.imglink{
+	padding: 10px;
+}
+div.about_me2 div.imglink a img {
+	outline-width: thick;
+	outline-color: black;
+	outline-style: solid;
+}
+
+}
+@media only screen and (min-width: 1200px) {
+div.about_me2 div.imglink{
+	padding: 10px;
+}
+div.about_me2 div.imglink a img {
+	outline-width: thick;
+	outline-color: black;
+	outline-style: solid;
+}
 
 }
 

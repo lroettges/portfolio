@@ -1,1 +1,25 @@
 /*customeventplanning*/
+
+div.events_body div.row{
+	min-height: 700px;
+}
+div.events_body div.row.contributor, div.events_body div.row.future {
+	background-color: #cff;
+}
+
+div.events_body div.row.largescale{
+	background-color: #fff;
+}
+
+div.events_body div.row.advising{
+	background-color: #00ffff;
+}
+div.events_body div.row.multipleday{
+	background-color: #ccffcc;
+}
+div.events_body div.row.formals{
+	background-color: #0cc;
+}
+
+/*#ffcccc*/
+/*00ffff*/
