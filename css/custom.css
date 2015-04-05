@@ -6,6 +6,7 @@
 h1 {
 font-family: myFirstFont;
 font-size: 500%;
+text-align: center;
 }
 @font-face {
     font-family: myMainFont;
@@ -13,9 +14,31 @@ font-size: 500%;
 }
 h2, h3, h4, h5, h6, p {
 font-family: myMainFont;
+text-align: center;
 
 }
+div.navbar{
+	background-color: rgba(204, 255, 255, .7);
+	width:100%;
+	min-height: 100px;
+}
+body{
+	width:100%;
+}
+#body_wrap div.row.toprow{
+	margin-top: 13%;
+	padding: 15px;
+}
 
+#home_body {
+	background-image: url("../images/digirep_background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: rgba(204, 255, 255, .9);
+}
+#footer_wrap {
+	background-color: rgba(204, 255, 255, .6);
+}
 /*div.about_me2 div.imglink{
 	padding: 0px;
 }
@@ -24,6 +47,15 @@ div.about_me2 div.imglink a img {
 	outline-color: black;
 	outline-style: solid;
 }*/
+div.toprow span {
+	background-color: rgba(255, 153, 153, .6);
+	padding: 15px;
+}
+div.row div.personalStatement {
+	background-color: rgba(255, 153, 153, .6);
+	margin-top:2%;
+	margin-bottom:5%;
+}
 .pagination>li>a, .pagination>li>span {
   padding: 30px 5px;
   
@@ -33,7 +65,9 @@ div.about_me2 div.imglink a img {
   text-align: center;
   border: none;
 }
-
+ .pagination>li.arrow>a, .pagination>li.arrow>a>span {
+min-width:15px;
+}
 .pagination>.disabled>a {
 	/*color: #777;*/
   background-color: transparent;
@@ -52,58 +86,58 @@ div.about_me2 div.imglink a img {
   border-color: rgba(204, 255, 255, .5);
 }
 
-.pagination>li.arrow>a:hover, 
-.pagination>li.arrow>span:hover, 
-.pagination>li.arrow>a:focus, 
-.pagination>li.arrow>span:focus {
+.pagination>li.arrow.A2>a:hover, 
+.pagination>li.arrow.A2>span:hover, 
+.pagination>li.arrow.A2>a:focus, 
+.pagination>li.arrow.A2>span:focus {
 	background-color: rgba(204, 255, 255, .5);
-  border-color: rgba(204, 255, 255, .5);
-  color: black;
+  color: #999999
 } 
-
+.pagination>li.arrow.A1>a:hover, 
+.pagination>li.arrow.A1>span:hover, 
+.pagination>li.arrow.A1>a:focus, 
+.pagination>li.arrow.A1>span:focus {
+	background-color: rgba(0,51,102,.8);
+	color: white;
+}
 .pagination>li.home>a:hover, 
 .pagination>li.home>span:hover, 
 .pagination>li.home>a:focus, 
-.pagination>li.home>span:focus 
-.pagination>li.home>a{
+.pagination>li.home>span:focus {
 	background-color: rgba(0,51,102,.6);
 	color: white;
 }
 .pagination>li.background>a:hover, 
 .pagination>li.background>span:hover, 
 .pagination>li.background>a:focus, 
-.pagination>li.background>span:focus 
-.pagination>li.background>a{
+.pagination>li.background>span:focus {
 	background-color: rgba(0,102,153,.5);
 	color: white;
 	}
 .pagination>li.eventplan>a:hover, 
 .pagination>li.eventplan>span:hover, 
 .pagination>li.eventplan>a:focus, 
-.pagination>li.eventplan>span:focus 
-.pagination>li.eventplan>a{
+.pagination>li.eventplan>span:focus {
 	background-color: rgba(51,204,204,.6);
 	color: white;
 }
 .pagination>li.artTech>a:hover, 
 .pagination>li.artTech>span:hover, 
 .pagination>li.artTech>a:focus, 
-.pagination>li.artTech>span:focus 
-.pagination>li.artTech>a{
+.pagination>li.artTech>span:focus {
 	background-color: rgba(0,255,255,.6);
 	color: white;
 }
 .pagination>li.contact>a:hover, 
 .pagination>li.contact>span:hover, 
 .pagination>li.contact>a:focus, 
-.pagination>li.contact>span:focus 
-.pagination>li.contact>a{
+.pagination>li.contact>span:focus {
 	background-color: rgba(102,255,255,.6);
 	color: white;
 }
 
-.pagination>li.arrow>a{
-	background-color: transparent;
+.pagination>li.arrow.A1>a{
+	background-color: rgba(255, 204, 204, .3);
 }
 .pagination>li.home>a{
 	background-color: rgba(255, 204, 204, .6);
@@ -119,6 +153,9 @@ div.about_me2 div.imglink a img {
 }
 .pagination>li.contact>a{
 	background-color: rgba(153, 51, 51, .6);
+}
+.pagination>li.arrow.A2>a{
+	background-color: rgba(153, 0, 51, .6);
 }
 
 body{
@@ -223,11 +260,7 @@ padding: 5px;
 
 }
 
-div.navbar{
-	background-color: rgba(204, 255, 255, .7);
-	width:100%;
-	min-height: 100px;
-}
+
 
 
 /*#footer_wrap {
@@ -256,9 +289,13 @@ div.navbar{
 	text-align: left;
 }
 
-
 }
 @media only screen and (max-width: 768px){
+
+div.navbar {
+	visibility: hidden;
+	position: absolute;
+}
 
 }
 @media only screen and (max-width: 992px) {

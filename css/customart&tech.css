@@ -1,7 +1,7 @@
 /*customart&tech*/
 
 @media only screen and (min-width: 992px) {
-body{
+#body_wrap {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
