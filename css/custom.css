@@ -25,15 +25,13 @@ div.about_me2 div.imglink a img {
 	outline-style: solid;
 }*/
 .pagination>li>a, .pagination>li>span {
-  /*position: relative;
-  float: left;*/
   padding: 30px 5px;
-  /*line-height: 1.42857143;
-  text-decoration: none;*/
-  color: black;
   
+  color: black;
+  min-height: 100px;
+  min-width: 80px;
+  text-align: center;
   border: none;
-/*  margin-left: -1px;*/
 }
 
 .pagination>.disabled>a {
@@ -50,19 +48,78 @@ div.about_me2 div.imglink a img {
 .pagination>.active>a:hover, 
 .pagination>.active>span:hover, .pagination>.active>a:focus, 
 .pagination>.active>span:focus {
-	background-color: rgba(144, 144, 144, .9);
-  border-color: rgba(144, 144, 144, .9);
+	background-color: rgba(204, 255, 255, .5);
+  border-color: rgba(204, 255, 255, .5);
 }
 
-.pagination>li>a:hover, 
-.pagination>li>span:hover, 
-.pagination>li>a:focus, 
-.pagination>li>span:focus {
-	background-color: rgba(144, 144, 144, .5);
-  border-color: rgba(144, 144, 144, .5);
+.pagination>li.arrow>a:hover, 
+.pagination>li.arrow>span:hover, 
+.pagination>li.arrow>a:focus, 
+.pagination>li.arrow>span:focus {
+	background-color: rgba(204, 255, 255, .5);
+  border-color: rgba(204, 255, 255, .5);
   color: black;
-
 } 
+
+.pagination>li.home>a:hover, 
+.pagination>li.home>span:hover, 
+.pagination>li.home>a:focus, 
+.pagination>li.home>span:focus 
+.pagination>li.home>a{
+	background-color: rgba(0,51,102,.6);
+	color: white;
+}
+.pagination>li.background>a:hover, 
+.pagination>li.background>span:hover, 
+.pagination>li.background>a:focus, 
+.pagination>li.background>span:focus 
+.pagination>li.background>a{
+	background-color: rgba(0,102,153,.5);
+	color: white;
+	}
+.pagination>li.eventplan>a:hover, 
+.pagination>li.eventplan>span:hover, 
+.pagination>li.eventplan>a:focus, 
+.pagination>li.eventplan>span:focus 
+.pagination>li.eventplan>a{
+	background-color: rgba(51,204,204,.6);
+	color: white;
+}
+.pagination>li.artTech>a:hover, 
+.pagination>li.artTech>span:hover, 
+.pagination>li.artTech>a:focus, 
+.pagination>li.artTech>span:focus 
+.pagination>li.artTech>a{
+	background-color: rgba(0,255,255,.6);
+	color: white;
+}
+.pagination>li.contact>a:hover, 
+.pagination>li.contact>span:hover, 
+.pagination>li.contact>a:focus, 
+.pagination>li.contact>span:focus 
+.pagination>li.contact>a{
+	background-color: rgba(102,255,255,.6);
+	color: white;
+}
+
+.pagination>li.arrow>a{
+	background-color: transparent;
+}
+.pagination>li.home>a{
+	background-color: rgba(255, 204, 204, .6);
+	}
+.pagination>li.background>a{
+	background-color: rgba(255, 153, 153, .6);
+}
+.pagination>li.eventplan>a{
+	background-color: rgba(255, 102, 102, .6);
+}
+.pagination>li.artTech>a{
+	background-color: rgba(204, 0, 0, .6);
+}
+.pagination>li.contact>a{
+	background-color: rgba(153, 51, 51, .6);
+}
 
 body{
 	/*background-image: url();*/
@@ -165,6 +222,18 @@ padding: 5px;
 	padding: 0px;
 
 }
+
+div.navbar{
+	background-color: rgba(204, 255, 255, .7);
+	width:100%;
+	min-height: 100px;
+}
+
+
+/*#footer_wrap {
+	position: absolute;
+	bottom:0%;
+}*/
 /*#body_wrap button.imgbtn img div.dp{
 	width:33.3%;
 
@@ -196,6 +265,33 @@ padding: 5px;
 
 
 }
+@media only screen and (min-width: 768px) {
+	div.navbar{
+		position: fixed;
+		top:0px;
+		z-index: 99;
+		margin-top: 0px; 
+
+	}
+
+	div.navbar header nav ul{
+		position: fixed;
+		margin: 0px;
+		padding: 0px;
+		right:0px;
+	}
+	div.navbar > header > nav > h1{
+		position: fixed;
+		top: 0px;
+		left: 5px;
+		padding: 0px;
+		margin: 10px;
+		width: 10%;
+		z-index: 98;
+	}
+
+}
+
 
 @media only screen and (max-width: 1200px) {
 	div.about_me2 div.imglink{
