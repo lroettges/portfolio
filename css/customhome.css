@@ -28,3 +28,127 @@ div.navbar.sml {
 	margin:0px;
 	text-align: right;
 }
+
+#miniMenu  {
+	background-color: rgba(255, 204, 204, 1); 
+}
+
+#miniMenu div{
+	background-color: rgba(255, 204, 204, 1); 
+	border: none;
+	box-shadow: none;
+	margin: 0px;
+	width: 100%;
+
+}
+
+#miniMenu > div > div > div.modal-body.mini-menu > li {
+	margin-top: 2%;
+	list-style-type: none;
+}
+
+
+
+li>a h2{
+  padding-top: auto;
+  padding-bottom: auto;
+  color: black;
+  text-align: center;
+  border: none;
+}
+
+li.active>a h2{
+color: white;
+text-decoration: underline;
+}
+li.active>a:hover h2, 
+li.active>span:hover h2, li.active>a:focus h2, 
+li.active>span:focus h2{
+	background-color: rgba(204, 255, 255, .5);
+  border-color: rgba(204, 255, 255, .5);
+
+}
+
+li.home>a:hover h2, 
+li.home>span:hover h2, 
+li.home>a:focus h2, 
+li.home>span:focus h2{
+	background-color: rgba(0,51,102,.6);
+	color: white;
+	text-decoration: none;
+}
+li.background>a:hover h2, 
+li.background>span:hover h2, 
+li.background>a:focus h2, 
+li.background>span:focus h2{
+	background-color: rgba(0,102,153,.5);
+	color: white;
+	text-decoration: none;
+	}
+li.eventplan>a:hover h2, 
+li.eventplan>span:hover h2, 
+li.eventplan>a:focus h2, 
+li.eventplan>span:focus h2{
+	background-color: rgba(51,204,204,.6);
+	color: white;
+	text-decoration: none;
+}
+li.artTech>a:hover h2, 
+li.artTech>span:hover h2, 
+li.artTech>a:focus h2, 
+li.artTech>span:focus h2{
+	background-color: rgba(0,255,255,.6);
+	color: white;
+	text-decoration: none;
+}
+
+li.contact>a:hover h2, 
+li.contact>span:hover h2, 
+li.contact>a:focus h2, 
+li.contact>span:focus h2{
+	background-color: rgba(102,255,255,.6);
+	color: white;
+
+}
+li a h2 {
+	line-height: 100px;
+}
+li.home>a h2{
+	background-color: rgba(255, 204, 204, .6);
+	}
+li.background>a h2{
+	background-color: rgba(255, 153, 153, .6);
+}
+li.eventplan>a h2{
+	background-color: rgba(255, 102, 102, .6);
+}
+li.artTech>a h2{
+	background-color: rgba(204, 0, 0, .6);
+}
+li.contact>a h2{
+	background-color: rgba(153, 51, 51, .6);
+
+}
+
+li.contact a:hover,
+li.contact>span:hover, 
+li.contact>a:focus,  
+li.contact>span:focus,
+li.artTech a:hover,
+li.artTech>span:hover, 
+li.artTech>a:focus,  
+li.artTech>span:focus,
+li.eventplan a:hover,
+li.eventplan>span:hover, 
+li.eventplan>a:focus,  
+li.eventplan>span:focus,
+li.background a:hover,
+li.background>span:hover, 
+li.background>a:focus,  
+li.background>span:focus,
+li.home a:hover,
+li.home>span:hover, 
+li.home>a:focus,  
+li.home>span:focus{
+	text-decoration: none;
+}
