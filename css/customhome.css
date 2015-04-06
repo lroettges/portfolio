@@ -1,1 +1,30 @@
 /*customhome*/
+
+
+#body_wrap > div.navbar.sml> div > button {
+	background-color: transparent;
+	margin: 20px 20px 0px ;
+	padding: 0px;
+	border: none;
+	text-align: right;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/sweetly_broken/SweetlyBroken.ttf);
+}
+div.navbar h3 {
+	font-family: myFirstFont;
+	text-align: left;
+}
+div.navbar.sml {
+	padding: 0px;
+	background-color: rgba(204, 255, 255, .8);
+	border-style: solid;
+	border-color: rgba(255, 204, 204, .9); 
+}
+#body_wrap > div.navbar.sml > div.col-xs-6 {
+	padding: 0px;
+	margin:0px;
+	text-align: right;
+}

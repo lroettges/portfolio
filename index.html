@@ -15,6 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom -->
     <link href="css/custom.css" rel="stylesheet">
+    <link href="css/customhome.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +33,7 @@
         <div class="personalStatement col-sm-offset-3 col-sm-6"><h3>I am a creative generalist with a wide variety of interests. Through this site I aim to display my work and skills, but more importantly to express what makes me - me. I hope future employers want to work with me for who I am not just for the work I do, which is why I seek to share a holistic self depiction.</h3><p>I have extensive event programming experience and enjoy the social nature of the work, however my biggest current interest is in seeking to connect technology and art in a productive way. Art and technology are much more interrelated than often perceived on the surface level and my interest in data analytics, data visualization, and web design have grown extensively over the past year. I plan to expand my portfolio into these realms in the near future.</p></div> </div>
         
 
-         <div class="navbar">
+         <div class="navbar lrg">
         <header class="inner">
           <nav class="col-sm-12">
             <h1>LR</h1>
@@ -53,12 +54,51 @@
         </header>
     </div>
 
-    <!-- <div class="navbar">
-        <header class="inner">
-          <nav class="col-sm-12">
-            <h4>LR</h4>
-              <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-            <ul class="pagination">
+    <div class="navbar sml">
+         <div class="col-xs-6"> <h3>LR</h3></div>
+
+<div class="col-xs-6">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miniMenu">
+ <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="miniMenu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span style="color:white;" class="glyphicon glyphicon-remove" aria-hidden="true"></span></button><br>
+      </div>
+      <div class="modal-body mini-menu">
+              <li class="home"><a href="./index.html">Home</a></li>
+              <li class="background"><a href="./background.html">Background</a></li>
+              <li class="eventplan"><a href="./eventplanning.html">Event Planning</a></li>
+              <li class="artTech"><a href="./art&tech.html">Art & Technology</a></li>
+              <li class="contact"><a href="./contact.html">Contact</a></li>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+            <!-- Single button -->
+<!-- <div class="btn-group col-xs-12">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./background.html">Background</a></li>
+    <li><a href="./eventplanning.html">Event Planning</a></li>
+    <li><a href="./art&tech.html">Art & Technology</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul> -->
+
+              
+            <!-- <ul class="pagination">
               <li class="arrow disabled A1"><a href="./index.html" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
               <li class="active home"><a href="./index.html">Home<span class="sr-only">(current)</span></a></li>
               <li class="background"><a href="./background.html">Background</a></li>
@@ -70,10 +110,11 @@
                   <span aria-hidden="true">&raquo;</span>
                 </a>
               </li>
-            </ul>
-          </nav>
-        </header>
-    </div> -->
+            </ul> -->
+         <!--  </nav> -->
+    </div>
+
+
   </div>
 
     <!-- FOOTER  -->

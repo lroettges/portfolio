@@ -12,12 +12,12 @@ text-align: center;
     font-family: myMainFont;
     src: url(../fonts/giorgio/Giorgio.ttf);
 }
-h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6, p, li {
 font-family: myMainFont;
 text-align: center;
 
 }
-div.navbar{
+div.navbar.lrg{
 	background-color: rgba(204, 255, 255, .7);
 	width:100%;
 	min-height: 100px;
@@ -58,15 +58,18 @@ div.row div.personalStatement {
 }
 .pagination>li>a, .pagination>li>span {
   padding: 30px 5px;
-  
   color: black;
   min-height: 100px;
   min-width: 80px;
   text-align: center;
   border: none;
+
 }
  .pagination>li.arrow>a, .pagination>li.arrow>a>span {
 min-width:15px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
 }
 .pagination>.disabled>a {
 	/*color: #777;*/
@@ -185,9 +188,7 @@ div.imglink {
 	margin-top: 0px;
 	margin-right: auto;
   margin-left: auto;
-
 }
-
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   margin-right: auto;
   margin-left: auto;
@@ -292,17 +293,42 @@ padding: 5px;
 }
 @media only screen and (max-width: 768px){
 
-div.navbar {
+div.navbar.lrg {
 	visibility: hidden;
 	position: absolute;
 }
+div.navbar.sml {
+	visibility: visible;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	/*background-color: rgba(255, 204, 204, .6);*/
+}
+.dropdown-menu {
+ /* font-size: 14px;*/
+  text-align: center;
+  background-color: #f99;
+  border: none;
+  /*-webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;*/
+}
+#body_wrap > div.navbar.sml > header > div > button{
 
 }
-@media only screen and (max-width: 992px) {
-
+div.navbar.sml div.btn-group button{
+}
 
 }
+
+
 @media only screen and (min-width: 768px) {
+	div.navbar.sml {
+		visibility: hidden;
+	position: absolute;
+	}
+
 	div.navbar{
 		position: fixed;
 		top:0px;
@@ -328,7 +354,10 @@ div.navbar {
 	}
 
 }
+@media only screen and (max-width: 992px) {
 
+
+}
 
 @media only screen and (max-width: 1200px) {
 	div.about_me2 div.imglink{
