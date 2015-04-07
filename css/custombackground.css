@@ -1,10 +1,68 @@
 /*custombackground*/
 
+footer {
+	position: fixed;
+	bottom: 0px;
+	width:100%;
+	background-color: #cff;
+}
+.navbar.back, .navbar.back .pagination{
+	background-color: #cff;
+}
+.pagination div {
+	position: fixed;
+	right: 3%;
+	top: 0%;
+	
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/sweetly_broken/SweetlyBroken.ttf);
+}
+.pagination div h4 {
+	font-family: myFirstFont;
+}
+.pagination>li>a, .pagination>li>span {
+  padding: 10px 5px;
+  color: #f99;
+  min-height: 0px;
+  min-width: 80px;
+  text-align: center;
+  border: none;
+  font-size: 150%;
+  background-color: transparent;
 
+}
 
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+  color: #f99;
+  text-decoration: underline;
+  /*background-color: #cff;
+  border-style: solid;
+ border-width: 1px;
+  border-color: #f99;*/
+}
+div.navbar header nav ul {
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: #f99;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #cff;
+  background-color: #f99;
+  border-color: #cff;
+}
 
 div.allofit {
-	margin: 20% 0px;
+	margin: 15% 0px;
 }
 div.date2{
 	text-align: center;
@@ -21,18 +79,25 @@ div.date3{
 }
 
 #goethe, #goethe div, #chiAI, #chiAI div, #WashU, #WashU div {
-	background-color: rgba(204, 255, 255, 1);
+	background-color: #cff;
 	border: none;
 	box-shadow: none;
 	margin: 0px;
 	width: 100%;
 }
+#goethe div div.modal-content, #WashU div div.modal-content, 
+#chiAI div div.modal-content {
+	margin-top: 20%;
+}
+
 
 @media only screen and (min-width: 480px) {
 
 }
 @media only screen and (max-width: 768px){
-
+div.navbar header nav ul li a {
+	background-color: transparent;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -50,7 +115,10 @@ div.date3{
 	position:relative;
 	right:5%;
 }
-
+.modal-header .close {
+  margin-left: -25%;
+  margin-right: 25%;
+}
 }
 @media only screen and (max-width: 1200px) {
 

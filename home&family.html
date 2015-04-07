@@ -14,6 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom -->
     <link href="css/custom.css" rel="stylesheet">
+     <link href="css/customfamily.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,16 +26,117 @@
 </head>
 
 <body>
-   <div class="navbar">
+   <div class="navbar back">
         <header class="inner">
           <nav>
             <ul class="pagination">
-              <li class="active"><a href="./background.html">Back to Background<span class="sr-only">(current)</span></a></li>
+              <li><button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='./background.html'"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Back</button></li>
             </ul>
           </nav>
         </header>
     </div>
 <div id="body_wrap">
+
+<div class="row allofit">
+<div class="col-md-push-1 col-md-4 myHomeModal">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg big" data-toggle="modal" data-target="#myHome">
+  My Home
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myHome" tabindex="-1" role="dialog" aria-labelledby="formyHome" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="formyHome">The Sunshine State</h4>
+      </div>
+      <div class="modal-body">
+        <p class="col-md-offset-3 col-md-6">Though I currently live in St. Louis, MO while I attend school. My true home is back in Florida. I was born and lived for 10 years in Jacksonville, Florida until my family moved "over the ditch" (aka over the intercostal waterway) to Ponte Vedra Beach which is only about 35 minutes away. I love the beach and ocean and grew up swimming, surfing, fishing, kyaking, boogie-boarding, jr. lifegaurding, etc. Overall living in such an environment has shaped my love for adventure, my go-getter yet laid back attitude, and my apreciation for the environment.</p>
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class=" col-md-push-3 col-md-4 myFamModal">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg big" data-toggle="modal" data-target="#myFamily">
+  My Family
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myFamily" tabindex="-1" role="dialog" aria-labelledby="formyFam" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="formyFam"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="family col-md-12">
+        <img class="img-responsive img-rounded" src="images/about/fam-couch.jpg">
+
+      </div>
+      <div class="row">
+      <div class="family text col-md-offset-3 col-md-6">
+        <h2>Family</h2>
+        <p>My family is crazy, large, a bit neurautic, talented, and very entertaining. My sister is an artist, my brother is a doctor, and my parents are musicians, thus I have grown up in a very creative environment. I can connect with a number of people from varying backgrounds largely do to the breadth of personalities and interests within my family. I have 16 fiirst cousins who all like to travel to Florida on vacation during the summer, so I am used to overwhelming environments and understand they can be a lot of fun.</p>
+      </div>
+    </div>
+      
+      <div class="row">
+          <div class="col-xs-6 col-sm-3">
+            <div class="thumbnail">
+              <img class="img-responsive img-rounded" src="images/about/les.jpg">
+              <div class="caption">
+                <h3>Lorraine & Les</h3>
+                <p>My mother and father both come from musical backgrounds. My father is the current Principle Orchestral Flutist and my mom is the current Director of Institutional Giving at the <a href="http://www.jaxsymphony.org/musician/Les-Roettges.html" >Jacksonville Symphony</a>. She is also a Flutest, so there is always a lot of music at the house. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="thumbnail">
+              <img class="img-responsive img-rounded" src="images/about/paul_sm.jpg">
+              <div class="caption">
+                <h3>Paul & Sam</h3>
+                <p>Paul is my older brother who is currently in the residency phase of his doctoral studies with a focus on orthepedic surgery. Paul just asked Sam Leuck to marry him while in Central Park in New York, and I am so excited to welcome a new member to my family! </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="thumbnail">
+              <img class="img-responsive img-rounded" src="images/about/chach_sm.jpg">
+              <div class="caption">
+                <h3>Katherine</h3>
+                <p>Katherine is my older sister and my best friend. She keeps me fun and has inspired all of my srtistic endevours. She is currently an Art teacher for grades K-5 in the Duval district in Jacksonville Florida. She studied Painting at Carnegie Melon and I encourage you to check out some of her amazing <a href="http://www.katherineroettges.com/">work!</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="thumbnail">
+              <img class="img-responsive img-rounded" src="images/about/hank_sm.jpg">
+              <div class="caption">
+                <h3>Pets are Family Too!!</h3>
+                <p>Hank is my beloved, fat, lazy, beautiful boy. He is the first dog our family ever owned after owning cats, lizards, snakes, and fish, to name a few of the pets we have had over the years. </p>
+              </div>
+            </div>
+          </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- 
     <div class="row">
       <div class="myhome text col-md-6">
         <h2>Home</h2>
@@ -45,8 +147,8 @@
         <img class="img-responsive" src="http://placehold.it/500x300&text=House">
 
       </div>
-    </div> <!-- end row -->
-    <div class="row">
+    </div> --> <!-- end row -->
+   <!--  <div class="row">
       <div class="family text col-md-push-6 col-md-6">
         <h2>Family</h2>
         <p>My family is crazy, large, a bit neurautic, talented, and very entertaining. My sister is an artist, my brother is a doctor, and my parents are musicians, thus I have grown up in a very creative environment. I can connect with a number of people from varying backgrounds largely do to the breadth of personalities and interests within my family. I have 16 fiirst cousins who all like to travel to Florida on vacation during the summer, so I am used to overwhelming environments and understand they can be a lot of fun.</p>
@@ -93,7 +195,9 @@
               </div>
             </div>
           </div>
-    </div>
+    </div> -->
+
+  </div> <!-- end allofit -->
 </div> <!-- end body wrap -->
 
 <!-- FOOTER  -->

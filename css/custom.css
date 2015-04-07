@@ -190,7 +190,8 @@ div.imglink {
 	margin-right: auto;
   margin-left: auto;
 }
-.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+.img-responsive, .thumbnail>img, .thumbnail a>img, 
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
   margin-right: auto;
   margin-left: auto;
 }
@@ -220,12 +221,12 @@ div.event {
 div.row div.imglink{
 	margin:0%;
 }
-#body_wrap > div.row > div.imglink a:hover > img.underlay{
+#body_wrap > div div.row > div.imglink a:hover > img.underlay{
 	opacity: 0.6;
 }
 
 @media only screen and (min-width: 480px) {
-	#body_wrap div.row div.imglink h3 {
+	#body_wrap div div.row div.imglink h3 {
 	position: absolute;
 	top:30%;
 	bottom: 60%;
@@ -262,7 +263,9 @@ padding: 5px;
 
 }
 
-
+div.row.about_me, div.row.myownwrap {
+	margin-top: 100px;
+}
 
 
 /*#footer_wrap {
@@ -275,7 +278,11 @@ padding: 5px;
 }*/
 
 @media only screen and (max-width: 480px) {
-	#body_wrap div.row div.imglink h3 {
+	
+
+}
+@media only screen and (max-width: 768px){
+#body_wrap div div.row div.imglink h3 {
 	position: absolute;
 	top:30%;
 	bottom: 70%;
@@ -284,16 +291,12 @@ padding: 5px;
 	background-color: rgba(77, 77, 77, .7);
 	color:white;
 	display: block;
-	padding:25%;
+	padding:22%;
 	margin-left:10%;
 	margin-right:10%;
 	z-index: -1;
 	text-align: left;
 }
-
-}
-@media only screen and (max-width: 768px){
-
 div.navbar.lrg {
 	visibility: hidden;
 	position: absolute;
@@ -364,6 +367,7 @@ div.navbar.sml div.btn-group button{
 		z-index: 98;
 	}
 
+
 }
 @media only screen and (max-width: 992px) {
 
@@ -391,6 +395,15 @@ div.about_me2 div.imglink a img {
 	outline-width: thick;
 	outline-color: black;
 	outline-style: solid;
+}
+div.row.about_me {
+	margin-top: 150px;
+}
+
+#footer_wrap {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
 }
 
 }
