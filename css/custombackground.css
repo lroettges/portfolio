@@ -13,7 +13,7 @@ footer {
 	position: fixed;
 	right: 3%;
 	top: 0%;
-	
+
 }
 @font-face {
     font-family: myFirstFont;
@@ -87,7 +87,7 @@ div.date3{
 }
 #goethe div div.modal-content, #WashU div div.modal-content, 
 #chiAI div div.modal-content {
-	margin-top: 20%;
+	margin-top: 10%;
 }
 
 

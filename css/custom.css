@@ -11,12 +11,30 @@ text-align: center;
 }
 @font-face {
     font-family: myMainFont;
-    src: url(../fonts/giorgio/Giorgio.ttf);
+    src: url(../fonts/simple_print/SimplePrint.ttf);
 }
 h2, h3, h4, h5, h6, p, li {
 font-family: myMainFont;
 text-align: center;
 
+}
+h2 {
+	font-size: 360%;
+}
+h3 {
+	font-size: 315%;
+}
+h4 {
+	font-size: 275%;
+}
+h5 {
+	font-size: 230%;
+}
+h6 {
+	font-size: 200%;
+}
+p, li {
+	font-size: 170%;
 }
 div.navbar.lrg{
 	background-color: rgba(204, 255, 255, .7);
@@ -35,7 +53,7 @@ body{
 	background-image: url("../images/digirep_background.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-color: rgba(204, 255, 255, .9);
+	/*background-color: rgba(204, 255, 255, .9);*/
 }
 #footer_wrap {
 	background-color: rgba(204, 255, 255, .6);
@@ -263,7 +281,7 @@ padding: 5px;
 
 }
 
-div.row.about_me, div.row.myownwrap {
+div.row.about_me, div.row.myownwrap , div.row.main.about_events {
 	margin-top: 100px;
 }
 

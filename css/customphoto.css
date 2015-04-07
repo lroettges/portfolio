@@ -1,0 +1,26 @@
+/*customphoto*/
+div.myfakenav {
+	position: fixed;
+	top: 0px;
+	left: 2px;
+	z-index: 100;
+	padding: 0px;
+}
+div.myfakenav ul li {
+	list-style-type: none;
+	font-size: 170%;
+	width: 100%;
+	
+
+}
+
+div.myfakenav ul li a{
+	color: #f99;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+div.row.top {
+	margin-top: 50px;
+}

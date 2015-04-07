@@ -1,0 +1,48 @@
+/*customdraw*/
+div.myfakenav {
+	position: fixed;
+	top: 0px;
+	left: 2px;
+	z-index: 100;
+}
+div.myfakenav ul li {
+	list-style-type: none;
+	font-size: 170%;
+	width: 100%;
+
+}
+
+div.myfakenav ul li a{
+	color: #f99;
+
+
+}
+div div.mywrap {
+	margin: 50px 0px;
+}
+
+div.row {
+	margin-top: 4%;
+	text-align: center;
+}
+
+#sm-1, #sm-1 div, #sm-2, #sm-2 div, #sm-3, #sm-3 div,
+#sm-4, #sm-4 div, #sm-5, #sm-5 div, #sm-6, #sm-6 div, 
+#sm-7, #sm-7 div{
+	background-color: #cff;
+	border: none;
+	box-shadow: none;
+	margin: 0px;
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+#footer_wrap {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+}
+@media only screen and (min-width: 992px) {
+
+}
